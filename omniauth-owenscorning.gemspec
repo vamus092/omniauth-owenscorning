@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'omniauth/owenscorning/version'
 
 Gem::Specification.new do |spec|
-  spec.add_dependency "omniauth-oauth2",   "~> 1.3"
+  spec.add_dependency "omniauth-oauth2",   "~> 1.3.1"
 
   spec.name          = "omniauth-owenscorning"
   spec.version       = Omniauth::Owenscorning::VERSION
